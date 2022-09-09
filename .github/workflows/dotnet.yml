@@ -29,5 +29,5 @@ jobs:
       uses: actions/upload-artifact@v2.2.4
       with:
         name: website 
-        path: SimpleFeedReader/website** 
+        path: simple-feed-reader/website** 
         if-no-files-found: error
