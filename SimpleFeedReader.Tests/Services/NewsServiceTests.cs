@@ -32,7 +32,7 @@ public class NewsServiceTests
             await _newsService.GetNews(feedUrl);
 
         // Assert
-        Assert.True(result.Count > 0);
+        Assert.False(result.Count > 0);
     }
 
     [Fact]
