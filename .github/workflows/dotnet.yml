@@ -52,7 +52,7 @@ jobs:
                         uses: azure/webapps-deploy@v2 
                         with: 
                              app-name: 'mywebapp22185' 
-                             slot-name: staging
-                             staging package: website 
+                             slot-name: 'staging'
+                             package: . 
                       - name: az cli logout 
                         run: az logout
